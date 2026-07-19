@@ -57,7 +57,7 @@ function App() {
           // }
           return {
             ...product,
-            isAdded: ,
+            isAdded: !product.isAdded,
           };
         } else {
           return product;
